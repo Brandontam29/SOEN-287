@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+  </head>
+
+  <body>
+    <div class="BorderDiv">
+
+
+        <div class="Heading">
+          <h1>Welcome to sign up page!!!</h1>
+        </div>
+
+        <div class="Navigation">
+          <p>navigation</p>
+        </div>
+
+        <div class="Ads">
+          <p>Ads</p>
+        </div>
+
+
+
+        <div class="userDetails">
+
+          <p>This is a basic signup page for tutorial. <i>Welcome to the page</i>
+              This page takes data from user through a <b>form</b> and redirects to
+              a different page!</p><br>
+
+          <form class="Content" action="thankyou.html" method="post">
+
+            <input type="text" name="firstName" placeholder="enter your first name" required>
+            <input type="text" name="lastName" placeholder="enter your last name" required>
+            <br><br>
+
+            <label for="userEmail">Enter your email id:</label>
+            <input type="email" name="userEmail" value="">
+            <br><br>
+
+            <label for="userPassword">Enter your password</label>
+            <input type="password" name="userPassword" value="" required>
+            <br><br>
+
+            <label for="userRepassword">Reenter your password</label>
+            <input type="password" name="userRepassword" value="" required>
+            <br><br>
+
+            <p>Select your gender:</p>
+            <label for="maleVal">Male</label>
+            <input type="radio" name="maleVal" value="male">
+            <label for="femaleVal">Female</label>
+            <input type="radio" name="femaleVal" value="female">
+            <label for="other">Other</label>
+            <input type="radio" name="other" value="other">
+            <br><br>
+
+            <label for="countryList">Select your country:</label>
+            <select class="userCountry" name="countryList">
+              <option value="6">other</option>
+              <option value="1">Canada</option>
+              <option value="2">USA</option>
+              <option value="3">India</option>
+              <option value="4">China</option>
+              <option value="5">Japan</option>
+            </select>
+            <br><br>
+
+            <input type="submit" name="submitButton" value="SignUp">
+
+
+            <br><br><br>
+
+            <table border="1">
+              <thead>
+                <th>Users Country</th>
+                <th>Users Count</th>
+              </thead>
+
+              <tr>
+                <td>Canada</td>
+                <td>100</td>
+              </tr>
+
+              <tr>
+                <td>USA</td>
+                <td>10</td>
+              </tr>
+
+              <tr>
+                <td>India</td>
+                <td>50</td>
+              </tr>
+
+              <tr>
+                <td>China</td>
+                <td>105</td>
+              </tr>
+
+              <tr>
+                <td>Japan</td>
+                <td>2</td>
+              </tr>
+
+            </table>
+
+          </form>
+        </div>
+
+
+        <div class="Footer">
+          <p>This is concorida web page!</p>
+        </div>
+
+    </div>
+
+  </body>
+</html>
