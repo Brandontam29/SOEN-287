@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: calc(80% - 2rem);
+    margin: 20px auto;
+}
+
+form,
+form > label {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    gap: 1.5rem;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    display: block;
+    padding: 10px 20px;
+    margin: 0 auto;
+}

@@ -1,12 +1,11 @@
 const addNavigation = () => {
     const nav = document.createElement("nav");
     nav.innerHTML = /*html*/ `
-        <a href="../index.html"> Home </a>
-        <a href="../resume.html"> Resume </a>
-        <a href="../projects.html"> Projects </a>
-        <a href="../contact.html"> Contact </a>
-        <a href="../social.html"> Social </a>
-        <a href="../admin.html"> Admin </a>
+        <a href="../home/index.html"> Home </a>
+        <a href="../resume/resume.html"> Resume </a>
+        <a href="../projects/projects.html"> Projects </a>
+        <a href="../contact/contact.html"> Contact </a>
+        <a href="../social/social.html"> Social </a>
     `;
     document.body.append(nav);
 };
@@ -40,7 +39,7 @@ body {
 }
 
 nav {
-  position: -webkit-sticky
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
