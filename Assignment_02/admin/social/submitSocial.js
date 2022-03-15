@@ -1,6 +1,5 @@
 const button = document.getElementsByTagName("button")[0];
 button.addEventListener("click", (event) => {
-    console.log("clicked");
     event.preventDefault();
 
     // Preparing content

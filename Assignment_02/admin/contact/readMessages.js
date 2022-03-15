@@ -4,7 +4,6 @@ let hidden = true;
 
 input.addEventListener("click", (event) => {
     event.preventDefault();
-    console.log("click");
 
     if (hidden) {
         table.style.display = "block";

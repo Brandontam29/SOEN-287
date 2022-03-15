@@ -1,6 +1,5 @@
 const input = document.getElementsByTagName("input")[0];
 input.addEventListener("click", (event) => {
-    console.log("clicked");
     event.preventDefault();
 
     // Preparing content
