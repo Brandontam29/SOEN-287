@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="adminIndex.css" />
     </head>
 
-    <body id="body">
+    <body>
         <script src="../navigation.js"></script>
 
         <div class="container">
@@ -26,5 +26,11 @@
         </div>
 
         <script src="submitIndex.js"></script>
+
+        <script>
+            // Give an id to this session (cleared in adminLogout.html)
+            myStorage = window.sessionStorage;
+            myStorage.setItem("admin_pannel", "session_abc123");
+        </script>
     </body>
 </html>

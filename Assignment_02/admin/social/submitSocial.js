@@ -1,13 +1,24 @@
-const input = document.getElementsByTagName("input")[0];
-input.addEventListener("click", (event) => {
+const button = document.getElementsByTagName("button")[0];
+button.addEventListener("click", (event) => {
     event.preventDefault();
 
     // Preparing content
-    const filename = "adminProjects.txt";
+    const filename = "adminSocial.txt";
     const content =
-        "My Projects\n" + document.getElementById("my_projects").value;
+        "Social Link 1\n" +
+        document.getElementById("social_link_1").value +
+        "\n\n";
+    const content2 =
+        "Social Link 2\n" +
+        document.getElementById("social_link_2").value +
+        "\n\n";
+    const content3 =
+        "Social Link 3\n" +
+        document.getElementById("social_link_3").value +
+        "\n\n";
+
     //File initialization
-    const file = new Blob([content], {
+    const file = new Blob([content, content2, content3], {
         type: "text/plain",
     });
 
